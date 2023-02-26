@@ -3,20 +3,6 @@
     padding: 0;
     margin: 0;
 }
-nav{
-    display: flex;
-    gap: 20PX;
-}
-.logo{
-    display: flex;
-    align-items: center;
-}
-header{
-    background-color: blue;
-}
-.btn{
-    height: 20px;
-}
 input{
     height: 20px;
 }
@@ -31,8 +17,70 @@ input{
     /* overflow-x: auto; */
 }
 
-#items_container > div{
+#items_container div{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#navbar{
+    display: flex;
+    background-color: #2874f0;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.color{
+    
+    color: aliceblue;
+    font-size: 20px;
+    align-items: center;
+    
+}
+.nav{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 20px;
+}
+.color> img{
+    width: 80px;
+    height: 20px;
+
+}
+input{
+    padding: 3px;
+}
+.color> button{
+    padding: 5px 40px;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    color: #2874f0;
+}
+#flipkartLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px 0px;
+}
+
+#flipkartLogo a{
+    text-decoration: none;
+}
+
+#plus{
+    color: gold;
+    margin: 0px 4px;
+    font-size: 10px;
+}
+
+#explore{
+    color: white;
+    font-size: 10px;
+}
+.Seller{
+    white-space: nowrap;
 }
